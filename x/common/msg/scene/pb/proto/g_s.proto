@@ -1,0 +1,66 @@
+syntax = "proto3";
+package proto;
+option go_package ="github.com/nghichtu91/platform/share/x/common/msg/scene/pb";
+
+message SceneMsg {
+    string sceneId                              = 1;  // 场景线ID。
+    repeated string acids                       = 2;  // 玩家的ACIDs。
+    uint32 shardId                              = 3;  // GameX的ID。
+    uint32 msgId                                = 4;  // Msg的反射ID。
+    bytes msgData                               = 5;  // Msg的内容。
+    MsgType msgType                             = 6;  // 消息的类型。
+    string errDes                               = 7;  // 异常信息描述。
+    bool onlySetPosition                        = 8;  // 传送时使用，仅设置位置，不改变场景线。
+    TrySceneSeizeSeat Code                      = 9;  // 试图切线占位的结果。
+    repeated SceneLineRoleNum SceLineRoleNum    = 10; // 场景线的信息。
+    AllLineNpcInfo allLineNpc                   = 11; //全线显示的npc
+    string  npcUniqId                           = 12; // npcid
+    repeated string allLineNpcList              = 13; //全线显示的npc列表
+    bytes ctx                                   = 14; // 链路追踪context
+    int32 warzoneId                            = 15; // 战区ID，跨服场景使用
+    bool isAllLineNpc                           = 16; //是否每个线上都要有
+}
+
+message AllLineNpcInfo{
+    int32 ObjectType  = 1;
+    int32 ConfigId = 2;
+    int64 DeadTime  = 3;// 死亡时间
+    string OwnerName = 4;//归属者名字
+    string OwnerAcid =5; //归属者id
+    int32 PosX = 6;
+    int32 PosZ = 7;
+    string UniqId = 8; //唯一id
+}
+
+
+enum MsgType {
+    CommonScene             = 0; // 场景线内操作。
+    EnterScene              = 1; // 进入新的场景线。
+    ForceEnterScene         = 2; // 强制进入新的场景线（不受场景线人数限制控制）。
+    GetSceneLine            = 3; // 获取场景分线信息。
+    ChangeSceneLine         = 4; // 切换场景分线预占位。
+    GetSceneLineNotRealTime = 5; // 获取场景分线信息（非实时）。
+    NpcEnterScene           = 6; //npc 出生
+    NpcLeaveScene           = 7; //npc 销毁
+    GetNpcList              = 8; //npc 列表
+}
+
+// 尝试场景线占位。
+enum TrySceneSeizeSeat {
+    Success = 0; // 目标场景线占位成功（有效期5S）。
+    Fail    = 1; // 目标场景线占位失败。
+    NotExit = 2; // 目标场景线不存在。
+}
+
+message SceneLineRoleNum {
+    uint32 SceLine = 1;
+    uint32 SceRoleNum = 2;
+    uint32 SceRoleMaxNum = 3;
+    repeated uint32 extra = 4;
+}
+
+
+service GameScene{
+    rpc OnStream (stream SceneMsg) returns (stream SceneMsg) {}
+    rpc OnCommand(SceneMsg) returns (SceneMsg) {}
+}

@@ -1,0 +1,75 @@
+{
+  "private": true,
+  "entry": {
+    "index": "./src/index.js"
+  },
+  "dependencies": {
+    "antd": "^3.26.12",
+    "babel-loader": "^8.0.4",
+    "classnames": "^2.2.5",
+    "dva": "^1.1.0",
+    "dva-loading": "^2.0.6",
+    "immutable": "^3.8.1",
+    "js-cookie": "^2.1.3",
+    "lodash": "^4.17.4",
+    "map-json-webpack-plugin": "latest",
+    "moment": "^2.17.1",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.5.9",
+    "qs": "^6.2.0",
+    "query-string": "^6.2.0",
+    "rc-queue-anim": "^0.13.0",
+    "rc-tween-one": "^1.0.0",
+    "react": "^15.4.1",
+    "react-countup": "^1.3.0",
+    "react-dom": "^15.4.1",
+    "react-draggable": "^2.2.6",
+    "react-lz-editor": "^0.10.15",
+    "react-media-player": "^0.6.1",
+    "react-motion-ui-pack": "^0.10.2",
+    "roadhog": "^0.6.1",
+    "webpack-hmr": "^1.0.2",
+    "xlsx": "^0.16.9",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "atool-build": "^1.0.4",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-dev-expression": "^0.2.1",
+    "babel-plugin-dva-hmr": "^0.4.1",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "glob": "^7.1.3",
+    "html": "^1.0.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^2.30.1",
+    "path-to-regexp": "^2.4.0",
+    "react-highlight-words": "^0.16.0",
+    "redbox-react": "^1.6.0",
+    "robe-ajax": "^1.0.1",
+    "webpack-manifest-plugin": "^2.2.0"
+  },
+  "scripts": {
+    "watch": "atool-build -w --no-compress --config conf/webpack.config.js -o ./build/dist --hash",
+    "build-release": "atool-build --config conf/webpack.config.release.js -o ./build/dist --hash"
+  },
+  "themlse": "./src/theme.js",
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "location",
+      "localStorage"
+    ]
+  }
+}

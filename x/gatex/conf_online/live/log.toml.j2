@@ -1,0 +1,8 @@
+{% set etcdvalue = item.value %}
+
+level = "{{etcdvalue.loglevel}}"
+prod = false
+sampling = 100 # 一般不用改
+sentryDSN = "{{etcdvalue.otherSentryDSN | default("") }}"
+#sentryDSN = "http://0a708ebb24704580a8d249d70966f140@47.104.110.251:9000/4"
+

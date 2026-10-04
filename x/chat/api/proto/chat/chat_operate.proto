@@ -1,0 +1,34 @@
+syntax = "proto2";
+
+package protogen;
+option go_package = "vcs.taiyouxi.net/jws2/common/proto/protogen";
+
+// 操作类型
+enum ChatOperation {
+  ErrorOp = 0;
+  // c2s
+  C2SLogin = 1000;
+  C2SJoinRoom = 1001;
+  C2SLeaveRoom = 1002;
+  C2SChatMsg = 1003;
+  C2SHistroyMsg = 1004;
+  C2SHeartbeat = 1005;
+
+  // s2c
+  S2CLogin = 2000;
+  S2CJoinRoom = 2001;
+  S2CLeaveRoom = 2002;
+  S2CChatMsg = 2003;
+  S2CHistroyMsg = 2004;
+  S2CHeartbeat = 2005;
+  S2CForbidden = 2006;
+  S2CUnForbidden = 2007;
+
+  // server internal msg
+	// OpProtoReady proto ready
+	OpProtoReady = 3000;
+	// OpProtoFinish proto finish
+	OpProtoFinish = 3001;
+  // 合并房间消息
+  OpRawData = 3002;
+}

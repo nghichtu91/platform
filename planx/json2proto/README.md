@@ -1,0 +1,2 @@
+# json2proto
+将打表工具生成的json文件反序列化到之前的protobuf结构

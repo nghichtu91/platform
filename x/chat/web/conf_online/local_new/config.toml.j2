@@ -1,0 +1,12 @@
+{% set etcdvalue = item.value %}
+
+[CommonCfg]
+etcd_endpoint = {{etcdvalue.etcd_endpoint}}
+ServerEtcdRoot = "{{etcdvalue.etcd_root_server}}" # 服务器目录
+DevopsEtcdRoot = "{{etcdvalue.etcd_root_devops}}" # 运维目录
+Gid = {{ etcdvalue.gid }}
+Port = "{{ etcdvalue.port }}"
+
+
+
+

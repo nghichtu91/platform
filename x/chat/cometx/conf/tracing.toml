@@ -1,0 +1,14 @@
+TracerType = "jaeger"
+
+[Jaeger]
+ServiceName  = "cometx"
+Disabled   = false
+
+# const, probabilistic, rateLimiting, remote
+SamplerType = "const"
+SamplerParam = 1.0
+
+LogSpans = false
+AgentHostPort = "127.0.0.1:6831"
+SamplingServerURL = "http://127.0.0.1:5778/sampling"
+SamplingRefreshInterval = 30

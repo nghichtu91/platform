@@ -1,0 +1,16 @@
+[GiftCfg]
+db_driver = "mysql"             # 使用的数据库驱动。
+db_url = "tcp(127.0.0.1:3306)"  # DB服务所在的IP和端口。
+db_database = "new_server"      # 与DB建立连接时选用的数据库。
+db_user = "root"                # 与DB建立连接时使用的用户名。
+db_pwd = "123456"               # 与DB建立连接时使用的密码。
+db_max_open_conns = 100         # 连接池允许的最大连接数。
+                                # 如果使用Mysql数据库：Mysql默认最大连接151条，如果希望这个值超出151，需要修改Mysql配置。
+                                # 查看Mysql允许的最大连接数：show variables like 'max_connections';
+db_max_idle_conns = 20          # 连接池允许的最大闲置连接数。
+                                # 此值只允许<=db_max_open_conns
+db_conn_max_life_time = 600     # 连接的可获取最大生成周期值（s）。
+                                # 如果使用mysql数据库：Mysql默认一条连接的保持时间为10h上限，如果希望超出，需要修改Mysql配置。
+                                # 查看Mysql允许的连接最大保持时间：show variables like  '%timeout%';
+                                # 注意！此值不设置或者设置超过Mysql侧设置，可能会导致连接池内出现无效连接，而报错。
+

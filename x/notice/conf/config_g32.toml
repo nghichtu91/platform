@@ -1,0 +1,23 @@
+[Config]
+gid=32
+serverid = "notice1"
+
+etcd_endpoint = ["http://127.0.0.1:2379/"] #[prod] 当GateConfig的run_mode是prod时有效
+# Etcd Root Path 注意以/开头 如 /a4k
+etcd_devops = "root/devops"
+etcd_server = "root/server"
+
+
+#EnableHttpTLS = true
+HttpsAddress = ":10443"
+HttpsCertFile = "conf/server.crt"
+HttpsKeyFile = "conf/server.key"
+
+httpAddress = ":8084"
+internalip = "127.0.0.1"
+
+[LimitConfig]
+limit_url_regex = ".*" # 这些url做限制（http clientip和ratelimit）
+rate_limit_valid = true                 # 限制访问速度的开关
+rate_limit_Average = 10                 # 限速每秒平均数量，线上请改为100
+rate_limit_Burst = 10                  # 限速每秒最多数量，线上请改为500

@@ -1,0 +1,21 @@
+syntax = "proto3";
+package planxproto;
+
+option go_package = "github.com/nghichtu91/platform/share/planx/servers/planxprotogen";
+
+message DynamicSceneCmd {
+  DynamicSceneCmdTyp Typ = 1;
+  bytes msg = 2;
+}
+
+enum DynamicSceneCmdTyp {
+  SLNone                = 0;
+  SLGetPlayerPosition   = 1; // 获取坐标点信息
+  SLAsyncMsg            = 2; // 向场景服发送通知
+}
+
+message DynamicSceneRet {
+  uint32 code = 1;
+  string msg  = 2;
+  repeated bytes RespInfo = 3;
+}

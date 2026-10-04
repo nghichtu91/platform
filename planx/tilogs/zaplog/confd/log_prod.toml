@@ -1,0 +1,5 @@
+
+level = "info"
+prod = true
+sampling = 100 # 一般不用改
+sentryDSN = "" # 需要填

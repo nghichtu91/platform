@@ -1,0 +1,15 @@
+{% set etcdvalue = item.value %}
+TracerType = "jaeger"
+
+[Jaeger]
+ServiceName  = "cometx"
+Disabled   = true
+
+# const, probabilistic, rateLimiting, remote
+SamplerType = "remote"
+SamplerParam = 0.1
+
+LogSpans = false
+AgentHostPort = "{{etcdvalue.JaegerAgentHostPort}}"
+SamplingServerURL = "{{etcdvalue.JaegerSamplingServerURL}}"
+SamplingRefreshInterval = 30

@@ -1,0 +1,119 @@
+{% set etcdvalue = item.value %}
+
+# etcd
+etcd_endpoint = {{etcdvalue.etcd_endpoint}}
+etcd_devops = "{{etcdvalue.etcd_root_devops}}" # 运维目录
+etcd_server = "{{etcdvalue.etcd_root_server}}" # 服务器目录
+
+serverid = "{{ etcdvalue.serverid }}"
+
+#聊天服大区先留着，可以作为海外，国内的区分
+gid = {{ etcdvalue.gid }}
+
+ChatxRedisAddr="{{etcdvalue.ChatxRedisAddr}}"
+ChatxRedisDb="{{etcdvalue.ChatxRedisDb}}"
+ChatxRedisDbPwd="{{etcdvalue.ChatxRedisDbPwd}}"
+
+internalip="{{etcdvalue.CloudIP}}"
+NatsUrl= "{{etcdvalue.NatsUrl}}"
+
+# gm server url
+gmserver= "http://127.0.0.1:8808"
+
+# logic server config ---> client is comet
+[RPCServer]
+Network = "tcp"
+#Addr = ":10002"
+Timeout = 1
+IdleTimeout = 60
+MaxLifeTime = 7200
+ForceCloseWait = 20
+KeepAliveInterval = 60
+KeepAliveTimeout = 20
+
+# 私聊消息最大保存数量
+[Personal]
+MaxPersonSaveCount  = 200
+# 私聊字段最长保存时间14天
+MaxPersonKeySaveTime = 1204800
+
+# room可能需要按类型来配置
+[Room]
+MaxRoomSaveCount  = 100
+# 房间最长保存时间7天
+MaxRoomKeySaveTime = 604800
+
+[Auth]
+MaxAuthTimeOut = 86400
+
+[GmServer]
+ConnectTimeout = 10
+ReadWriteTimeout = 10
+
+# 易盾相关配置
+[YiDun]
+Enable = false
+BusinessId = "{{etcdvalue.BusinessId}}"
+SecretId = "{{etcdvalue.SecretId}}"
+SecretKey = "{{etcdvalue.SecretKey}}"
+Version = "v5.1"
+Url = "http://as.dun.163.com/v5/text/check"
+Score = 200
+    # 易盾label返回值
+    [[YiDun.Labels]]
+    code = 100
+    desc = "色情"
+    [[YiDun.Labels]]
+    code = 200
+    desc = "广告"
+    [[YiDun.Labels]]
+    code = 260
+    desc="广告法"
+    [[YiDun.Labels]]
+    code = 300
+    desc = "暴恐"
+    [[YiDun.Labels]]
+    code = 400
+    desc = "违禁"
+    [[YiDun.Labels]]
+    code = 500
+    desc = "涉政"
+    [[YiDun.Labels]]
+    code = 600
+    desc = "谩骂"
+    [[YiDun.Labels]]
+    code = 700
+    desc = "灌水"
+    [[YiDun.Labels]]
+    code = 900
+    desc = "其他"
+    [[YiDun.Labels]]
+    code = 1100
+    desc = "涉价值观"
+    # 这两个字段不属于label，属于level，方便点就直接写这直接用了
+    [[YiDun.Labels]]
+    code = 1
+    desc = "嫌疑"
+    [[YiDun.Labels]]
+    code = 2
+    desc = "不通过"
+
+# 聊天机器人相关配置
+[FeiShuRobot]
+FeiShuEnable = true
+FeiShuUrl = "{{etcdvalue.FeiShuUrl}}"
+FeiShuSercetKey = "5XmM1vTD7YNUI3wg7Tdouc"
+FeiShuCtxType = "application/json; charset=utf-8"
+FeiShuMsgType = "text"
+FeiShuCnUrl = "{{etcdvalue.FeiShuCnUrl}}"
+FeiShuCn100Url = "{{etcdvalue.FeiShuCn100Url}}"
+FeiShuCn200Url = "{{etcdvalue.FeiShuCn200Url}}"
+FeiShuCn500Url = "{{etcdvalue.FeiShuCn500Url}}"
+
+# 翻译相关配置(要用单独的redis实例)
+[Translate]
+TranslateRedisAddr = {{etcdvalue.TranslateRedisAddr | default("[]")}}
+TranslateRedisLanguage = {{etcdvalue.TranslateRedisLanguage | default("[]")}} #和客户端语言类型一致
+TranslateRedisDb = {{etcdvalue.TranslateRedisDb | default("[]")}}
+TranslateRedisPwd = {{etcdvalue.TranslateRedisPwd | default("[]")}}
+LRUMaxMemory = {{etcdvalue.LRUMaxMemory | default("[]")}}

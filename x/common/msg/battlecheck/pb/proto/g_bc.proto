@@ -1,0 +1,12 @@
+syntax = "proto3";
+package pb;
+
+option go_package ="github.com/nghichtu91/platform/share/x/common/msg/battlecheck/pb";
+
+service GameBattleCheck {
+    rpc OnPacket (stream BattleCheckMsg) returns (stream BattleCheckMsg) {}
+}
+
+message BattleCheckMsg {
+    string Msg = 1;
+}

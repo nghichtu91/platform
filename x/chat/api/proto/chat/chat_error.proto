@@ -1,0 +1,56 @@
+syntax = "proto2";
+
+package protogen;
+option go_package = "vcs.taiyouxi.net/jws2/common/proto/protogen";
+
+// 返回的错误码
+enum ErrorCode {
+  Success = 0;
+
+  ////////////////////// basic error //////////////////////
+  // something err, need to check 
+  // 错误码对应 errorcode表
+  // 200000->299999占用为聊天错误码
+  SomethingError = 200001;
+  // 握手失败
+  HandShakeFailed = 200002;
+  // 请求操作无效
+  RequestOperationNotValid = 200003;
+	// proto marshal faild
+  ProtoMarshalFailed = 200004;
+	// nats send msg faild
+  NatsSendFailed = 200005;
+  // 验证失败
+  AuthFailed = 200006;
+	// 获取目标数据失败
+  RedisTargetDataError = 200007;
+  // 存储玩家信息失败
+  RedisSaveDataError = 200008;
+
+  ///////////////////// 功能错误 /////////////////////////
+  // History参数不符
+  HistoryArgIndexError = 200100;
+  HistoryArgTargetError = 200101;
+
+  // 私聊消息 发送给自己
+  PersonalChatMyself = 200200;
+  // 禁言中
+  ForbiddenChat = 290000;
+
+  // room
+  RoomDrop = 200300;
+  RoomForbidden = 200301;
+  RoomCd = 290001;
+  ///////////////// internal server error ////////////////////
+	// ring
+  RingBufferEmpty  = 200400;
+  RingBufferFull = 200401;
+
+  LogicRpcNotAvailable = 200500;
+
+  // push msg arg
+  PushMsgArgError = 200600;
+  PushRoomMsgArgError = 200601;
+  ///////////////// internal server error ////////////////////
+}
+

@@ -1,0 +1,14 @@
+{% set etcdvalue = item.value %}
+
+[AllLevelLogic]
+Valid = true
+FileTemplate="/opt/supervisor/log/auth/authlogiclog_{{ etcdvalue.serverid }}_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=1 # 0:day,1:hour
+#FileForTail="/opt/supervisor/log/auth/authlogiclog.log"
+
+[TALogic]
+ConfigPath          = "/opt/supervisor/log/authlogiclog_ta"
+ConfigSplit         = 1 # 0按天切分;1按小时切分。
+ConfigFileSize      = 10240 # 文件大小上限，超出自动切分。
+TALogicValid        = true # 是否开启TALogicLog。

@@ -1,0 +1,10 @@
+export const MENU = 1;    //查看菜单
+export const CONTENT = 2; //查看页面
+export const QUERY = 3;   //获取
+export const ADD = 4;     //添加
+export const UPDATE = 5;  //修改
+export const DELETE = 6;  //删除
+export const CANCEL = 7;  //取消
+export const RELEASE = 8; //发布
+export const UPLOAD = 9;  //上传
+export const STATUS = 10; //状态

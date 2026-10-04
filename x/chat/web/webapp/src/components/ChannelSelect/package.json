@@ -1,0 +1,6 @@
+{
+  "name": "ChannelSelect",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./ChannelSelect.js"
+}

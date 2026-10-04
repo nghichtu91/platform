@@ -1,0 +1,19 @@
+# 这是个例子config文件
+[AllLevelLogic]
+Valid = true
+FileTemplate="./logiclog_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=0 # 0:day,1:hour
+FileForTail="./logiclog.log"
+
+[[levelLogic]]
+Level = "error"
+FileTemplate="./logiclog_error_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=0 # 0:day,1:hour
+
+[[levelLogic]]
+Level = "info"
+FileTemplate="./logiclog_info_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=0 # 0:day,1:hour

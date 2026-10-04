@@ -1,0 +1,4124 @@
+{
+  "items": [
+    {
+      "RandomID": "Static_Rnd_1",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 600,
+      "RangeUp": 800,
+      "Distribution": 1
+    },
+    {
+      "RandomID": "Static_Rnd_1",
+      "SubID": 2,
+      "OutputID": 1032,
+      "RangeDown": 50
+    },
+    {
+      "RandomID": "Static_Rnd_1",
+      "SubID": 3,
+      "OutputID": 1,
+      "RangeDown": 50
+    },
+    {
+      "RandomID": "Static_Reward_General_Nothing",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3001",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3002",
+      "SubID": 1,
+      "OutputID": 3002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3003",
+      "SubID": 1,
+      "OutputID": 3003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3004",
+      "SubID": 1,
+      "OutputID": 3004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3005",
+      "SubID": 1,
+      "OutputID": 3005,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3006",
+      "SubID": 1,
+      "OutputID": 3006,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3007",
+      "SubID": 1,
+      "OutputID": 3007,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3008",
+      "SubID": 1,
+      "OutputID": 3008,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3009",
+      "SubID": 1,
+      "OutputID": 3009,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3010",
+      "SubID": 1,
+      "OutputID": 3010,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3011",
+      "SubID": 1,
+      "OutputID": 3011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3012",
+      "SubID": 1,
+      "OutputID": 3012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3013",
+      "SubID": 1,
+      "OutputID": 3013,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3014",
+      "SubID": 1,
+      "OutputID": 3014,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3015",
+      "SubID": 1,
+      "OutputID": 3015,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3016",
+      "SubID": 1,
+      "OutputID": 3016,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroFragment_3017",
+      "SubID": 1,
+      "OutputID": 3017,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4001",
+      "SubID": 1,
+      "OutputID": 4001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4002",
+      "SubID": 1,
+      "OutputID": 4002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4003",
+      "SubID": 1,
+      "OutputID": 4003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4004",
+      "SubID": 1,
+      "OutputID": 4004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4005",
+      "SubID": 1,
+      "OutputID": 4005,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4006",
+      "SubID": 1,
+      "OutputID": 4006,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4007",
+      "SubID": 1,
+      "OutputID": 4007,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4008",
+      "SubID": 1,
+      "OutputID": 4008,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4009",
+      "SubID": 1,
+      "OutputID": 4009,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4010",
+      "SubID": 1,
+      "OutputID": 4010,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4011",
+      "SubID": 1,
+      "OutputID": 4011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4012",
+      "SubID": 1,
+      "OutputID": 4012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4013",
+      "SubID": 1,
+      "OutputID": 4013,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4014",
+      "SubID": 1,
+      "OutputID": 4014,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4015",
+      "SubID": 1,
+      "OutputID": 4015,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4016",
+      "SubID": 1,
+      "OutputID": 4016,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Hero_4017",
+      "SubID": 1,
+      "OutputID": 4017,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroBreakThrough",
+      "SubID": 1,
+      "OutputID": 3000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroAdvance",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroExperience_1031",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroExperience_1032",
+      "SubID": 1,
+      "OutputID": 1032,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroExperience_1033",
+      "SubID": 1,
+      "OutputID": 1033,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_HeroExperience_1034",
+      "SubID": 1,
+      "OutputID": 1034,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_StaminaPotion",
+      "SubID": 1,
+      "OutputID": 2001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Experience",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6101",
+      "SubID": 1,
+      "OutputID": 6101,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6102",
+      "SubID": 1,
+      "OutputID": 6102,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6103",
+      "SubID": 1,
+      "OutputID": 6103,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6104",
+      "SubID": 1,
+      "OutputID": 6104,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6111",
+      "SubID": 1,
+      "OutputID": 6111,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6112",
+      "SubID": 1,
+      "OutputID": 6112,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6113",
+      "SubID": 1,
+      "OutputID": 6113,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6114",
+      "SubID": 1,
+      "OutputID": 6114,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6121",
+      "SubID": 1,
+      "OutputID": 6121,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6122",
+      "SubID": 1,
+      "OutputID": 6122,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6123",
+      "SubID": 1,
+      "OutputID": 6123,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6124",
+      "SubID": 1,
+      "OutputID": 6124,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6131",
+      "SubID": 1,
+      "OutputID": 6131,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6132",
+      "SubID": 1,
+      "OutputID": 6132,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6133",
+      "SubID": 1,
+      "OutputID": 6133,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6134",
+      "SubID": 1,
+      "OutputID": 6134,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6141",
+      "SubID": 1,
+      "OutputID": 6141,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6142",
+      "SubID": 1,
+      "OutputID": 6142,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6143",
+      "SubID": 1,
+      "OutputID": 6143,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6144",
+      "SubID": 1,
+      "OutputID": 6144,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6151",
+      "SubID": 1,
+      "OutputID": 6151,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6152",
+      "SubID": 1,
+      "OutputID": 6152,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6153",
+      "SubID": 1,
+      "OutputID": 6153,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6154",
+      "SubID": 1,
+      "OutputID": 6154,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6161",
+      "SubID": 1,
+      "OutputID": 6161,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6162",
+      "SubID": 1,
+      "OutputID": 6162,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6163",
+      "SubID": 1,
+      "OutputID": 6163,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_EquipmentFragment_6164",
+      "SubID": 1,
+      "OutputID": 6164,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6001",
+      "SubID": 1,
+      "OutputID": 6001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6002",
+      "SubID": 1,
+      "OutputID": 6002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6003",
+      "SubID": 1,
+      "OutputID": 6003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6004",
+      "SubID": 1,
+      "OutputID": 6004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6011",
+      "SubID": 1,
+      "OutputID": 6011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6012",
+      "SubID": 1,
+      "OutputID": 6012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6013",
+      "SubID": 1,
+      "OutputID": 6013,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6014",
+      "SubID": 1,
+      "OutputID": 6014,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6021",
+      "SubID": 1,
+      "OutputID": 6021,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6022",
+      "SubID": 1,
+      "OutputID": 6022,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6023",
+      "SubID": 1,
+      "OutputID": 6023,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6024",
+      "SubID": 1,
+      "OutputID": 6024,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6031",
+      "SubID": 1,
+      "OutputID": 6031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6032",
+      "SubID": 1,
+      "OutputID": 6032,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6033",
+      "SubID": 1,
+      "OutputID": 6033,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6034",
+      "SubID": 1,
+      "OutputID": 6034,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6041",
+      "SubID": 1,
+      "OutputID": 6041,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6042",
+      "SubID": 1,
+      "OutputID": 6042,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6043",
+      "SubID": 1,
+      "OutputID": 6043,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6044",
+      "SubID": 1,
+      "OutputID": 6044,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6051",
+      "SubID": 1,
+      "OutputID": 6051,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6052",
+      "SubID": 1,
+      "OutputID": 6052,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6053",
+      "SubID": 1,
+      "OutputID": 6053,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6054",
+      "SubID": 1,
+      "OutputID": 6054,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6061",
+      "SubID": 1,
+      "OutputID": 6061,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6062",
+      "SubID": 1,
+      "OutputID": 6062,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6063",
+      "SubID": 1,
+      "OutputID": 6063,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_Equipment_6064",
+      "SubID": 1,
+      "OutputID": 6064,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponActivition_1",
+      "SubID": 1,
+      "OutputID": 5000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponActivition_2",
+      "SubID": 1,
+      "OutputID": 5100,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5001",
+      "SubID": 1,
+      "OutputID": 5001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5002",
+      "SubID": 1,
+      "OutputID": 5002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5003",
+      "SubID": 1,
+      "OutputID": 5003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5004",
+      "SubID": 1,
+      "OutputID": 5004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5005",
+      "SubID": 1,
+      "OutputID": 5005,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5006",
+      "SubID": 1,
+      "OutputID": 5006,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5007",
+      "SubID": 1,
+      "OutputID": 5007,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5008",
+      "SubID": 1,
+      "OutputID": 5008,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5009",
+      "SubID": 1,
+      "OutputID": 5009,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5010",
+      "SubID": 1,
+      "OutputID": 5010,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5011",
+      "SubID": 1,
+      "OutputID": 5011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5012",
+      "SubID": 1,
+      "OutputID": 5012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5013",
+      "SubID": 1,
+      "OutputID": 5013,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5014",
+      "SubID": 1,
+      "OutputID": 5014,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5015",
+      "SubID": 1,
+      "OutputID": 5015,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5016",
+      "SubID": 1,
+      "OutputID": 5016,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_General_WeaponFragment_5017",
+      "SubID": 1,
+      "OutputID": 5017,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_2_Bingo",
+      "SubID": 1,
+      "OutputID": 1034,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_2_Big",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_2_Big2",
+      "SubID": 1,
+      "OutputID": 1032,
+      "RangeDown": 500
+    },
+    {
+      "RandomID": "Static_Rnd_3_Hero_SSR1",
+      "SubID": 1,
+      "OutputID": 1033,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_3_Hero_SSR2",
+      "SubID": 1,
+      "OutputID": 1034,
+      "RangeDown": 2
+    },
+    {
+      "RandomID": "Static_Rnd_3_Hero_SSR3",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_3_Hero_SSR4",
+      "SubID": 1,
+      "OutputID": 1032,
+      "RangeDown": 2
+    },
+    {
+      "RandomID": "Static_Rnd_3_Hero_SR1",
+      "SubID": 1,
+      "OutputID": 1033,
+      "RangeDown": 2
+    },
+    {
+      "RandomID": "Static_Rnd_3_Hero_SR2",
+      "SubID": 1,
+      "OutputID": 1034,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_3_Fill_1",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 30000,
+      "RangeUp": 50000
+    },
+    {
+      "RandomID": "Static_Rnd_3_Fill_2",
+      "SubID": 1,
+      "OutputID": 1032,
+      "RangeDown": 50000,
+      "RangeUp": 100000
+    },
+    {
+      "RandomID": "Static_Rnd_3_Fill_3",
+      "SubID": 1,
+      "OutputID": 1033,
+      "RangeDown": 100000
+    },
+    {
+      "RandomID": "Static_Rnd_3_Fill_4",
+      "SubID": 1,
+      "OutputID": 1034,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Rnd_3_Fill_5",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 20
+    },
+    {
+      "RandomID": "Static_Rnd_4_1",
+      "SubID": 1,
+      "OutputID": 1032,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_4_2",
+      "SubID": 1,
+      "OutputID": 1033,
+      "RangeDown": 500
+    },
+    {
+      "RandomID": "Static_Rnd_4_3",
+      "SubID": 1,
+      "OutputID": 1034,
+      "RangeDown": 300000
+    },
+    {
+      "RandomID": "Static_Rnd_4_4",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 20
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400100_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 100
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400100_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 100
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400200_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 150
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400200_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 150
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400200_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 200
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400300_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 250
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400300_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 500
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400400_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 300
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400400_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 350
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400400_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 400
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400500_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 500
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400500_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 500
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400500_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 800
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400600_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 500
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400600_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 1000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_400600_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 200
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200100_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 300
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200100_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 300
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200100_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 400
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200100_4",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 800
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200200_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 800
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200200_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 800
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200200_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 2000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200300_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 1000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200300_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 1000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200300_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 3000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200400_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 2000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200400_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 3000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200500_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 2000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200500_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 4000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200500_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 2000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200500_4",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 2000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200600_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 3000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200600_2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 2000
+    },
+    {
+      "RandomID": "Static_Rnd_Task_200600_3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 3000
+    },
+    {
+      "RandomID": "Static_Rnd_Energy_1",
+      "SubID": 1,
+      "OutputID": 2,
+      "RangeDown": 20
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10101_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10101_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10101_Normal",
+      "SubID": 2,
+      "OutputID": 7001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10101_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10101_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10102_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10102_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10102_Normal",
+      "SubID": 2,
+      "OutputID": 7002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10102_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10102_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10103_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10103_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10103_Normal",
+      "SubID": 2,
+      "OutputID": 7003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10103_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10103_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10104_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10104_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10104_Normal",
+      "SubID": 2,
+      "OutputID": 7004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10104_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10104_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10105_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10105_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10105_Normal",
+      "SubID": 2,
+      "OutputID": 7005,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10105_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10105_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10106_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10106_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10106_Normal",
+      "SubID": 2,
+      "OutputID": 7006,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10106_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10106_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20101_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20101_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20101_Normal",
+      "SubID": 2,
+      "OutputID": 7001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20101_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20101_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20102_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20102_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20102_Normal",
+      "SubID": 2,
+      "OutputID": 7002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20102_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20102_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20103_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20103_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20103_Normal",
+      "SubID": 2,
+      "OutputID": 7003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20103_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20103_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20104_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20104_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20104_Normal",
+      "SubID": 2,
+      "OutputID": 7004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20104_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20104_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20105_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20105_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20105_Normal",
+      "SubID": 2,
+      "OutputID": 7005,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20105_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20105_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20106_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20106_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20106_Normal",
+      "SubID": 2,
+      "OutputID": 7006,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20106_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20106_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30101_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30101_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30101_Normal",
+      "SubID": 2,
+      "OutputID": 7001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30101_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30101_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30102_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30102_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30102_Normal",
+      "SubID": 2,
+      "OutputID": 7002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30102_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30102_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30103_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30103_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30103_Normal",
+      "SubID": 2,
+      "OutputID": 7003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30103_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30103_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30104_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30104_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30104_Normal",
+      "SubID": 2,
+      "OutputID": 7004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30104_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30104_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30105_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30105_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30105_Normal",
+      "SubID": 2,
+      "OutputID": 7005,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30105_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30105_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30106_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30106_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30106_Normal",
+      "SubID": 2,
+      "OutputID": 7006,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30106_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30106_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10201_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10201_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10201_Normal",
+      "SubID": 2,
+      "OutputID": 7007,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10201_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10201_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10202_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10202_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10202_Normal",
+      "SubID": 2,
+      "OutputID": 7008,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10202_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10202_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10203_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10203_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10203_Normal",
+      "SubID": 2,
+      "OutputID": 7009,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10203_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10203_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10204_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10204_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10204_Normal",
+      "SubID": 2,
+      "OutputID": 7010,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10204_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10204_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10205_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10205_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10205_Normal",
+      "SubID": 2,
+      "OutputID": 7011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10205_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10205_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10206_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10206_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10206_Normal",
+      "SubID": 2,
+      "OutputID": 7012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10206_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_10206_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20201_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20201_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20201_Normal",
+      "SubID": 2,
+      "OutputID": 7007,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20201_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20201_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20202_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20202_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20202_Normal",
+      "SubID": 2,
+      "OutputID": 7008,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20202_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20202_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20203_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20203_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20203_Normal",
+      "SubID": 2,
+      "OutputID": 7009,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20203_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20203_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20204_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20204_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20204_Normal",
+      "SubID": 2,
+      "OutputID": 7010,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20204_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20204_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20205_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20205_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20205_Normal",
+      "SubID": 2,
+      "OutputID": 7011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20205_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20205_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20206_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20206_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20206_Normal",
+      "SubID": 2,
+      "OutputID": 7012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20206_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_20206_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30201_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30201_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30201_Normal",
+      "SubID": 2,
+      "OutputID": 7007,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30201_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30201_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30202_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30202_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30202_Normal",
+      "SubID": 2,
+      "OutputID": 7008,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30202_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30202_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30203_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30203_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30203_Normal",
+      "SubID": 2,
+      "OutputID": 7009,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30203_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30203_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30204_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30204_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30204_Normal",
+      "SubID": 2,
+      "OutputID": 7010,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30204_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30204_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30205_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30205_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30205_Normal",
+      "SubID": 2,
+      "OutputID": 7011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30205_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30205_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30206_First",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 5
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30206_Normal",
+      "SubID": 1,
+      "OutputID": 1031,
+      "RangeDown": 1,
+      "RangeUp": 2
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30206_Normal",
+      "SubID": 2,
+      "OutputID": 7012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30206_Random_1_1",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 0
+    },
+    {
+      "RandomID": "Static_Rnd_Dungeon_Main_30206_Random_1_2",
+      "SubID": 1,
+      "OutputID": 7000,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500100_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 101
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500200_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 102
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500300_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 103
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500400_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 104
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500500_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 105
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500600_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 106
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500700_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 107
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500800_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 108
+    },
+    {
+      "RandomID": "Static_Rnd_Task_500900_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 109
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501000_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 110
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501100_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 111
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501200_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 112
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501300_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 113
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501400_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 114
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501500_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 115
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501600_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 116
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501700_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 117
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501800_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 118
+    },
+    {
+      "RandomID": "Static_Rnd_Task_501900_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 119
+    },
+    {
+      "RandomID": "Static_Rnd_Task_502000_1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 120
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv1",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 100
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv2",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 101
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv3",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 102
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv4",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 103
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv5",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 104
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv6",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 105
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv7",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 106
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv8",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 107
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv9",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 108
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv10",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 109
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv11",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 110
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv12",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 111
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv13",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 112
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv14",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 113
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv15",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 114
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv16",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 115
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv17",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 116
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv18",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 117
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv19",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 118
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv20",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 119
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv21",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 120
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv22",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 121
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv23",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 122
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv24",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 123
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv25",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 124
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv26",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 125
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv27",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 126
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv28",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 127
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv29",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 128
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv30",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 129
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv31",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 130
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv32",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 131
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv33",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 132
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv34",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 133
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv35",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 134
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv36",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 135
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv37",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 136
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv38",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 137
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv39",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 138
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv40",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 139
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv41",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 140
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv42",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 141
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv43",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 142
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv44",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 143
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv45",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 144
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv46",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 145
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv47",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 146
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv48",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 147
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv49",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 148
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv50",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 149
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv51",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 150
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv52",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 151
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv53",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 152
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv54",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 153
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv55",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 154
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv56",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 155
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv57",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 156
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv58",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 157
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv59",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 158
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv60",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 159
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv61",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 160
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv62",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 161
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv63",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 162
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv64",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 163
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv65",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 164
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv66",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 165
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv67",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 166
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv68",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 167
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv69",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 168
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv70",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 169
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv71",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 170
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv72",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 171
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv73",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 172
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv74",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 173
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv75",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 174
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv76",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 175
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv77",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 176
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv78",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 177
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv79",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 178
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv80",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 179
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv81",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 180
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv82",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 181
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv83",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 182
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv84",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 183
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv85",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 184
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv86",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 185
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv87",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 186
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv88",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 187
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv89",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 188
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv90",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 189
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv91",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 190
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv92",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 191
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv93",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 192
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv94",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 193
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv95",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 194
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv96",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 195
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv97",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 196
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv98",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 197
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv99",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 198
+    },
+    {
+      "RandomID": "Link_Rand_Daily_Quest_lv100",
+      "SubID": 1,
+      "OutputID": 1,
+      "RangeDown": 199
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_1",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 88
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_2",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 96
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_3",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 104
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_4",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 112
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_5",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 120
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_6",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 128
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_7",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 136
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_8",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 144
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_9",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 152
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_10",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 160
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_11",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 168
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_12",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 176
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_13",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 184
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_14",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 192
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_15",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 200
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_16",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 208
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_17",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 216
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_18",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 224
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_19",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 232
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_20",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 240
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_21",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 248
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_22",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 256
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_23",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 264
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_24",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 272
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_25",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 280
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_26",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 288
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_27",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 296
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_28",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 304
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_29",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 312
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_30",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 320
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_31",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 328
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_32",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 336
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_33",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 344
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_34",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 352
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_35",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 360
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_36",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 368
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_37",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 376
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_38",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 384
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_39",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 392
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_40",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 400
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_41",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 408
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_42",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 416
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_43",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 424
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_44",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 432
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_45",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 440
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_46",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 448
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_47",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 456
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_48",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 464
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_49",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 472
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_50",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 480
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_51",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 488
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_52",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 496
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_53",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 504
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_54",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 512
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_55",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 520
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_56",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 528
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_57",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 536
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_58",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 544
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_59",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 552
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_60",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 560
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_61",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 568
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_62",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 576
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_63",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 584
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_64",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 592
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_65",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 600
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_66",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 608
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_67",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 616
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_68",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 624
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_69",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 632
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_70",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 640
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_71",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 648
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_72",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 656
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_73",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 664
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_74",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 672
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_75",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 680
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_76",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 688
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_77",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 696
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_78",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 704
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_79",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 712
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_80",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 720
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_81",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 728
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_82",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 736
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_83",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 744
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_84",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 752
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_85",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 760
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_86",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 768
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_87",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 776
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_88",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 784
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_89",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 792
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_90",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 800
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_91",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 808
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_92",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 816
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_93",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 824
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_94",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 832
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_95",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 840
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_96",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 848
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_97",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 856
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_98",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 864
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_99",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 872
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_100",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 880
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_101",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 888
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_102",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 896
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_103",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 904
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_104",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 912
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_105",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 920
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_106",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 928
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_107",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 936
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_108",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 944
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_109",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 952
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_110",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 960
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_111",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 968
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_112",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 976
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_113",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 984
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_114",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 992
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_115",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1000
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_116",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1008
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_117",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1016
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_118",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1024
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_119",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1032
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_120",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1040
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_121",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1048
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_122",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1056
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_123",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1064
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_124",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1072
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_125",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1080
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_126",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1088
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_127",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1096
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_128",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1104
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_129",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1112
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_130",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1120
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_131",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1128
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_132",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1136
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_133",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1144
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_134",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1152
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_135",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1160
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_136",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1168
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_137",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1176
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_138",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1184
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_139",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1192
+    },
+    {
+      "RandomID": "Static_Reward_Dungeon_Farming_Gold_140",
+      "SubID": 1,
+      "OutputID": 3,
+      "RangeDown": 1200
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_1",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_1",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_1",
+      "SubID": 1,
+      "OutputID": 3001,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_1",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_2",
+      "SubID": 1,
+      "OutputID": 3002,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_2",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_2",
+      "SubID": 1,
+      "OutputID": 3002,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_2",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_3",
+      "SubID": 1,
+      "OutputID": 3003,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_3",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_3",
+      "SubID": 1,
+      "OutputID": 3003,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_3",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_4",
+      "SubID": 1,
+      "OutputID": 3004,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_4",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_4",
+      "SubID": 1,
+      "OutputID": 3004,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_4",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_5",
+      "SubID": 1,
+      "OutputID": 3005,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_5",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_5",
+      "SubID": 1,
+      "OutputID": 3005,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_5",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_6",
+      "SubID": 1,
+      "OutputID": 3006,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_6",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_6",
+      "SubID": 1,
+      "OutputID": 3006,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_6",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_7",
+      "SubID": 1,
+      "OutputID": 3007,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_7",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_7",
+      "SubID": 1,
+      "OutputID": 3007,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_7",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_8",
+      "SubID": 1,
+      "OutputID": 3008,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_8",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_8",
+      "SubID": 1,
+      "OutputID": 3008,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_8",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_9",
+      "SubID": 1,
+      "OutputID": 3009,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_9",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_9",
+      "SubID": 1,
+      "OutputID": 3009,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_9",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_10",
+      "SubID": 1,
+      "OutputID": 3010,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_10",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_10",
+      "SubID": 1,
+      "OutputID": 3010,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_10",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_11",
+      "SubID": 1,
+      "OutputID": 3011,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_11",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_11",
+      "SubID": 1,
+      "OutputID": 3011,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_11",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_12",
+      "SubID": 1,
+      "OutputID": 3012,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_12",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_12",
+      "SubID": 1,
+      "OutputID": 3012,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_12",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_13",
+      "SubID": 1,
+      "OutputID": 3013,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_13",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_13",
+      "SubID": 1,
+      "OutputID": 3013,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_13",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_14",
+      "SubID": 1,
+      "OutputID": 3014,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_14",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_14",
+      "SubID": 1,
+      "OutputID": 3014,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_14",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_15",
+      "SubID": 1,
+      "OutputID": 3015,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_15",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_15",
+      "SubID": 1,
+      "OutputID": 3015,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_15",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_16",
+      "SubID": 1,
+      "OutputID": 3016,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_16",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_16",
+      "SubID": 1,
+      "OutputID": 3016,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_16",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_17",
+      "SubID": 1,
+      "OutputID": 3017,
+      "RangeDown": 3
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_First_17",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 10
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_17",
+      "SubID": 1,
+      "OutputID": 3017,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Static_Reward_HeroStory_17",
+      "SubID": 2,
+      "OutputID": 3000,
+      "RangeDown": 3
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+syntax = "proto2";
+
+package protogen;
+option go_package = "vcs.taiyouxi.net/jws2/common/proto/protogen";
+
+import "proto/chat/chat.proto";
+
+message SaveChatMsg {
+  // 谁发的消息
+  required string fromId = 1;
+  // 私聊对象id 或者 room id
+  required string targetId = 2;
+  // 聊天类型
+  required ChatType type = 3;
+  // 历史消息
+  required ChatMsgData msg = 4;
+}
+
+message SaveForbiddenInfo {
+  required string reason = 1;
+  required int64 endTime = 2;
+}

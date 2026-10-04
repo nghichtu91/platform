@@ -1,0 +1,6 @@
+[CommonCfg]
+etcd_endpoint = ["http://127.0.0.1:2379/"] # 10.222.1.4
+ServerEtcdRoot = "root/server"
+DevopsEtcdRoot = "root/devops"
+Gid = 12
+Port = ":8089"

@@ -1,0 +1,24 @@
+{% set etcdvalue = item.value %}
+
+# This part is reloadable!
+graphite_valid = true
+graphite_host = "{{etcdvalue.graphite_host}}" #for :2003 tcp of graphite
+graphite_memstats = true
+graphite_gcstats = true
+graphite_flush_interval = 10000000000
+graphite_simple = true
+
+FileTemplate="/opt/supervisor/log/chat/logicx_pmetric_{{ etcdvalue.gid }}_{{ etcdvalue.serverid }}_%y-%m-%d_%h.log"    #log文件模板，如：/opt/supervisor/log/logiclog_%y-%m-%d_%h.log
+RotateTimeLocal="Asia/Shanghai"                                                                                 #时区，一般是"Asia/Shanghai"; 若为空字符串，则为utc时区
+RotateType=1 # 0:day,1:hour                                                                                     #log分割方式；目前支持两种，按天和按小时; 0:day,1:hour
+#FileForTail="/opt/supervisor/log/chat/logicx_pmetric_{{ etcdvalue.gid }}_{{ etcdvalue.serverid }}.log"                #为运维tail日志导入kibana用，如：/opt/supervisor/log/logiclog.log
+SendOpen=true                                                                                                   #开启PMetricsLog。
+
+# This part is reloadable.
+#push_gate_way_host         = ""   # 服务器发往PushGateWay的IP和端口。
+#push_special_interval_time = 1000000000                    # 向PushGateWay推送服务器相关Collector的时间间隔。
+#push_process_interval_time = 5000000000                    # 向PushGateWay推送进程相关Collector的时间间隔。
+#push_special_open          = true                          # 是否向PushGateWay推送服务器相关的Collector。
+#push_common_open           = true                          # 是否向PushGateWay推送协议相关（协议大小、数量、处理时间）的Collector。
+#push_server_process_open   = true                          # 是否向PushGateWay推送服务器进程（当前进程：goroutine、gc、mem相关）指标。
+#push_server_os_open        = true                          # 是否向PushGateWay推送服务器操作系统（当前进程：cpu、mem、file相关）指标。【此项即使打开也仅在Linux类型或Windows操作系统环境下生效】

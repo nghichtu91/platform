@@ -1,0 +1,8 @@
+
+˜
+proto/packet.protopb"~
+ClientPacket
+packetId (RpacketId
+	messageId (R	messageId
+compress (Rcompress
+rawData (RrawData

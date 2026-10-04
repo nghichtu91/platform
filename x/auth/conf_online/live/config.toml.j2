@@ -1,0 +1,92 @@
+{% set etcdvalue = item.value %}
+
+[CommonConfig]
+gid = {{ etcdvalue.gid }}
+serverid = "{{ etcdvalue.serverid }}"
+
+etcd_endpoint = {{etcdvalue.etcd_endpoint}}
+# Etcd Root Path 注意以/开头 如 /a4k
+etcd_root = "{{etcdvalue.etcd_root_devops}}"
+etcd_server = "{{etcdvalue.etcd_root_server}}"
+
+publicip = "{{etcdvalue.PublicCloudIP}}"   #[prod] 生产环境："aws"
+httpport = ":{{etcdvalue.httpport}}" # 外网端口，如果多开的话，此端口要设置的不同
+
+internalip="{{etcdvalue.CloudIP}}" # 本机内网ip
+
+elb_auth_addr="{{etcdvalue.elb_auth_addr | default()}}"
+
+MongoAuthDbName="{{ etcdvalue.MongoAuthDbName }}"
+
+AuthRedisAddr="{{etcdvalue.AuthRedisAddr}}"
+AuthRedisDb="{{etcdvalue.AuthRedisDb}}"
+AuthRedisDbPwd="{{etcdvalue.AuthRedisDbPwd}}"
+
+LoginRedisAddr="{{etcdvalue.LoginRedisAddr}}"
+LoginRedisDb="{{etcdvalue.LoginRedisDb}}"
+LoginRedisDbPwd="{{etcdvalue.LoginRedisDbPwd}}"
+
+AuthDeviceTable="{{etcdvalue.AuthDeviceTable}}"
+AuthNameTable= "{{etcdvalue.AuthNameTable}}"
+AuthUserInfoTable="{{etcdvalue.AuthUserInfoTable}}"
+AuthGmTable="{{etcdvalue.AuthGmTable}}"
+AuthUserShardInfoTable="{{etcdvalue.AuthUserShardInfoTable}}"
+
+[LimitConfig]
+limit_url_regex = ".*" # 这些url做限制（http header和ratelimit）
+rate_limit_valid = false                 # 限制访问速度的开关
+rate_limit_Average = 100                 # 限速每秒平均数量
+rate_limit_Burst = 200                  # 限速每秒最多数量
+
+
+[SdkHeroAndroidConfig]
+url           = "http://usdk.yingxiong.com/hu"
+url_login     = "/v1/login/checkUserInfo.lg"
+appKey        = "wojbbopr8ey3bszm2rda"
+productId     = "17078"
+projectId     = "P37246A"
+client_secret = "" # 暂未使用
+serverId      = "M1350A" # 暂未使用
+
+[SdkHeroIosConfig]
+url           = "http://usdk.yingxiong.com/hu"
+url_login     = "/v1/login/checkUserInfo.lg"
+appKey 	      = "dnflh0qjobmkrkelkuxq"
+productID     = "D10359A"
+projectID     = "P37246A"
+client_secret = "" # 暂未使用
+serverID 	  =	"M1350A" # 暂未使用
+
+[SdkNtCommonConfig] #国内ntsdk通用配置
+formalLoginIpAddress        = "https://safeapi.ntplat.com/uout/cp/check/token"    # 登录地址
+sandBoxLoginIpAddress       = "https://safeapi-qa.ntplat.com/uout/cp/check/token"
+formalGameGidIpAddress      = "https://safeapi.ntplat.com/uout/serverCenter/save/areaInfo"  # 推送大区信息地址
+sandBoxGameGidIpAddress     = "https://safeapi-qa.ntplat.com/uout/serverCenter/save/areaInfo"
+formalGameSharedIpAddress   = "https://safeapi.ntplat.com/uout/serverCenter/save/serverInfo"  # 推送服务器信息地址
+sandBoxGameSharedIpAddress  = "https://safeapi-qa.ntplat.com/uout/serverCenter/save/serverInfo"
+contentType                 = "application/x-www-form-urlencoded; charset=UTF-8"  # contentType
+
+[SdkNtHWCommonConfig] #海外ntsdk通用配置
+formalLoginIpAddress        = "https://safeapi.newtypegames.com/uout/cp/check/token"    # 登录地址
+sandBoxLoginIpAddress       = "https://safeapi-sandbox.newtypegames.com/uout/cp/check/token"
+formalGameGidIpAddress      = "https://safeapi.newtypegames.com/uout/serverCenter/save/areaInfo"  # 推送大区信息地址
+sandBoxGameGidIpAddress     = "https://safeapi-sandbox.newtypegames.com/uout/serverCenter/save/areaInfo"
+formalGameSharedIpAddress   = "https://safeapi.newtypegames.com/uout/serverCenter/save/serverInfo"  # 推送服务器信息地址
+sandBoxGameSharedIpAddress  = "https://safeapi-sandbox.newtypegames.com/uout/serverCenter/save/serverInfo"
+contentType                 = "application/x-www-form-urlencoded; charset=UTF-8"  # contentType
+
+[SdkNtConfig] #国内
+appId                       = "1002"
+secretKey                   = ""  # 秘钥
+
+[SdkNtHMTConfig] #港澳台东南亚
+appId                       = "1009"
+secretKey                   = ""  # 秘钥
+
+[SdkNtJPConfig] #日本
+appId                       = "1011"
+secretKey                   = ""  # 秘钥
+
+[SdkNtVNConfig] #越南
+appId                       = "1016"
+secretKey                   = ""  # 秘钥

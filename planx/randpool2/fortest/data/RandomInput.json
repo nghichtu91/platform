@@ -1,0 +1,1552 @@
+{
+  "items": [
+    {
+      "ID": "R1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "R2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "R3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "R4",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "R5",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_1",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Energy_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Energy_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400100_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400100_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400100_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400100_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400200_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400200_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400200_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400200_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400200_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400200_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400300_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400300_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400300_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400300_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400400_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400400_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400400_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400400_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400400_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400400_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400500_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400500_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400500_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400500_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400500_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400500_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400600_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400600_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400600_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400600_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "400600_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_400600_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200100_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200100_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200100_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200100_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200100_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200100_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200100_4",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200100_4",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200200_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200200_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200200_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200200_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200200_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200200_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200300_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200300_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200300_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200300_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200300_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200300_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200400_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200400_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200400_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200400_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200500_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200500_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200500_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200500_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200500_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200500_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200500_4",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200500_4",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200600_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200600_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200600_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200600_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "200600_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_200600_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Dungeon_Main_10101",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10101",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10102",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10102",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10103",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10103",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10104",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10104",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10105",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10105",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10106",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10106",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10201",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10201",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10202",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10202",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10203",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10203",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10204",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10204",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10205",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10205",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_10206",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_10206",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20101",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20101",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20102",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20102",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20103",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20103",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20104",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20104",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20105",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20105",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20106",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20106",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20201",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20201",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20202",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20202",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20203",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20203",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20204",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20204",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20205",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20205",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_20206",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_20206",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30101",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30101",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30102",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30102",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30103",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30103",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30104",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30104",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30105",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30105",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30106",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30106",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30201",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30201",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30202",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30202",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30203",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30203",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30204",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30204",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30205",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30205",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "Dungeon_Main_30206",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Dungeon_Main_30206",
+      "RewardShowType": 2
+    },
+    {
+      "ID": "500100_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500100_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500200_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500200_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500300_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500300_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500400_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500400_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500500_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500500_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500600_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500600_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500700_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500700_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500800_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500800_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "500900_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_500900_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501000_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501000_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501100_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501100_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501200_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501200_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501300_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501300_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501400_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501400_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501500_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501500_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501600_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501600_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501700_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501700_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501800_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501800_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "501900_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_501900_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "502000_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Rnd_Task_502000_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Daily_Quest_Reward",
+      "TableName": "RandomLink",
+      "StartID": "Link_Rand_Daily_Quest",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_1",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_2",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_3",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_4",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_5",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_6",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_7",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_7",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_8",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_8",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_9",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_9",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_First_10",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_First_10",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_1",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_2",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_3",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_4",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_5",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_6",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_7",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_7",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_8",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_8",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_9",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_9",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Dungeon_Farming_10",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Dungeon_Farming_10",
+      "RewardShowType": 3
+    },
+    {
+      "ID": "Link_Reward_Lottery_Minor",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Lottery_Minor",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Link_Reward_Lottery_Senior",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_Lottery_Senior",
+      "RewardShowType": 1
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_1",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_2",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_3",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_4",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_4",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_5",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_5",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_6",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_6",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_7",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_7",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_7",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_7",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_8",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_8",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_8",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_8",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_9",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_9",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_9",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_9",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_10",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_10",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_10",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_10",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_11",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_11",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_11",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_11",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_12",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_12",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_12",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_12",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_13",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_13",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_13",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_13",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_14",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_14",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_14",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_14",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_15",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_15",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_15",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_15",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_16",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_16",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_16",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_16",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_First_17",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_First_17",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Static_Reward_HeroStory_17",
+      "TableName": "RewardStatic",
+      "StartID": "Static_Reward_HeroStory_17",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_1_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_1_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_2_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_2_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_3_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_3_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_4_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_4_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_5_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_5_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_6_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_6_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_7_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_7_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_8_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_8_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_9_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_9_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_10_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_10_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_11_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_11_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_12_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_12_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_13_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_13_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_14_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_14_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_15_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_15_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_16_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_16_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_17_1",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_17_1",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_1_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_1_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_2_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_2_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_3_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_3_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_4_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_4_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_5_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_5_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_6_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_6_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_7_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_7_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_8_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_8_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_9_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_9_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_10_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_10_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_11_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_11_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_12_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_12_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_13_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_13_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_14_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_14_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_15_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_15_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_16_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_16_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_17_2",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_17_2",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_1_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_1_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_2_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_2_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_3_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_3_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_4_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_4_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_5_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_5_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_6_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_6_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_7_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_7_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_8_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_8_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_9_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_9_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_10_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_10_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_11_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_11_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_12_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_12_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_13_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_13_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_14_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_14_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_15_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_15_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_16_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_16_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_17_3",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_17_3",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_1_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_1_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_2_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_2_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_3_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_3_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_4_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_4_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_5_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_5_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_6_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_6_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_7_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_7_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_8_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_8_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_9_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_9_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_10_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_10_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_11_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_11_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_12_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_12_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_13_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_13_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_14_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_14_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_15_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_15_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_16_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_16_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_17_4",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_17_4",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_1_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_1_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_2_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_2_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_3_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_3_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_4_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_4_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_5_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_5_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_6_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_6_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_7_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_7_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_8_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_8_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_9_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_9_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_10_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_10_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_11_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_11_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_12_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_12_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_13_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_13_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_14_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_14_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_15_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_15_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_16_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_16_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_17_5",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_17_5",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_1_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_1_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_2_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_2_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_3_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_3_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_4_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_4_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_5_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_5_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_6_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_6_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_7_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_7_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_8_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_8_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_9_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_9_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_10_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_10_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_11_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_11_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_12_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_12_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_13_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_13_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_14_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_14_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_15_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_15_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_16_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_16_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_HeroStory_17_6",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_HeroStory_17_6",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_WorldBoss",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_WorldBoss",
+      "RewardShowType": 0
+    },
+    {
+      "ID": "Link_Reward_WorldBoss_Extra",
+      "TableName": "RandomLink",
+      "StartID": "Link_Reward_WorldBoss_Extra",
+      "RewardShowType": 0
+    }
+  ]
+}

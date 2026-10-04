@@ -1,0 +1,46 @@
+serverid = "logic2"
+
+#聊天服大区先留着，可以作为海外，国内的区分
+gid = 12
+
+etcd_endpoint = ["http://127.0.0.1:2379/"]
+etcd_devops= "root/devops"
+etcd_server = "root/server"
+
+internalip="127.0.0.1"
+
+# nats
+NatsUrl= "nats://127.0.0.1:4222"
+
+# gm server url
+gmserver= "http://127.0.0.1:8808"
+
+# logic server config ---> client is comet
+[RPCServer]
+Network = "tcp"
+#Addr = ":10002"
+Timeout = 1
+IdleTimeout = 60
+MaxLifeTime = 7200
+ForceCloseWait = 20
+KeepAliveInterval = 60
+KeepAliveTimeout = 20
+
+# 私聊消息最大保存数量
+[Personal]
+MaxPersonSaveCount  = 2500
+# 私聊字段最长保存时间14天
+MaxPersonKeySaveTime = 1204800
+
+# room可能需要按类型来配置
+[Room]
+MaxRoomSaveCount  = 100
+# 房间最长保存时间7天
+MaxRoomKeySaveTime = 604800
+
+[Auth]
+MaxAuthTimeOut = 86400
+
+[GmServer]
+ConnectTimeout = 10
+ReadWriteTimeout = 10

@@ -1,0 +1,20 @@
+syntax = "proto3";
+package planxproto;
+
+option go_package="github.com/nghichtu91/platform/share/planx/servers/planxprotogen";
+
+message BattleMsg {
+    string SerId = 1;
+    string SerType = 2;
+    uint32 BRoomId = 3;
+    uint32 PlayerId = 4;
+    string AccId = 5;
+    // msg
+    uint32 msgId = 6;
+    bytes msgData = 7;
+}
+
+
+service CrossBattle{
+    rpc OnStream (stream BattleMsg) returns (stream BattleMsg) {}
+}

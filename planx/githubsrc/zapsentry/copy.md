@@ -1,0 +1,3 @@
+copy from https://github.com/TheZeroSlave/zapsentry
+hash:410ad1e37c78ec5b5560b1d43f1c3f680763f234
+因为原功能不支持sentry的user功能，拷贝出来后添加此功能

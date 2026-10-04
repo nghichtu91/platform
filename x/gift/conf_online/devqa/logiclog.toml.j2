@@ -1,0 +1,20 @@
+{% set etcdvalue = item.value %}
+
+[AllLevelLogic]
+Valid = true
+FileTemplate="/opt/supervisor/log/gift/logiclog_{{ etcdvalue.serverid }}_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=1 # 0:day,1:hour
+#FileForTail="/opt/supervisor/log/gift/logiclog_{{ etcdvalue.serverid }}.log"
+
+#[[levelLogic]]
+#Level = "info"
+#FileTemplate="/opt/supervisor/log/gift/logiclog_realtime_{{ etcdvalue.serverid }}_%y-%m-%d_%h.log"
+#RotateTimeLocal="Asia/Shanghai"
+#RotateType=1 # 0:day,1:hour
+
+[TALogic]
+ConfigPath          = "/opt/supervisor/log/gift_{{ etcdvalue.serverid }}_ta"
+ConfigSplit         = 1 # 0按天切分;1按小时切分。
+ConfigFileSize      = 10240 # 文件大小上限，超出自动切分。
+TALogicValid        = true # 是否开启TALogicLog。

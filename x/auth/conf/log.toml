@@ -1,0 +1,7 @@
+
+level = "debug"
+prod = false
+sampling = 100 # 一般不用改
+#sentryDSN = "https://f2b1e12aa54249529620c2736be595b2@sentry.io/68835" # sid101测试用
+
+console = true

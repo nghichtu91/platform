@@ -1,0 +1,5 @@
+wrk.method = "GET"
+wrk.path = "/notice/v1/getnotice"
+wrk.body = "gid=16&version=0.0.0&shardId=160001"
+wrk.headers["TYX-Request-Id"] = "f88a78a83463f1e03bbf0acb3883aefb"
+wrk.headers["Content-Type"] = "application/x-www-form-urlencoded"

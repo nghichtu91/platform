@@ -1,0 +1,4 @@
+FileTemplate="./pmetric_%y-%m-%d_%h.log"   #log文件模板，如：/opt/supervisor/log/logiclog_%y-%m-%d_%h.log
+RotateTimeLocal="Asia/Shanghai"             #时区，一般是"Asia/Shanghai"; 若为空字符串，则为utc时区
+RotateType=0 # 0:day,1:hour                 #log分割方式；目前支持两种，按天和按小时; 0:day,1:hour
+FileForTail="./pmetric.log"                #为运维tail日志导入kibana用，如：/opt/supervisor/log/logiclog.log

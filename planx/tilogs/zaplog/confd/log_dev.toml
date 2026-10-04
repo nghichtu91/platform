@@ -1,0 +1,10 @@
+
+level = "debug"
+prod = false
+sampling = 100 # 一般不用改
+sentryDSN = "http://e33aa1a95c9541998970b99e6782330a@47.104.132.39:9000/13" # gamex-qa-11
+
+log_path = "./example.log"
+max_size = 20      # 一个log文件最大大小，单位M
+max_backups = 20    # 最多保留多少个log文件
+max_age = 10        #最多保留多少天前的log文件

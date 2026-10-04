@@ -1,0 +1,26 @@
+syntax = "proto3";
+package proto;
+
+option go_package="github.com/nghichtu91/platform/share/planx/silence_sys/planxprotogen";
+
+message GetSilenceSysInfoReq {
+  uint32 shardId = 1;
+}
+
+message GetSilenceSysInfoResp {
+  map<string, int64> silenceSysInfos = 1; // <acid, endTime>
+  string err = 2;
+}
+
+message SendSilenceSysInfoReq {
+  uint32 shardId = 1;
+  string acid = 2;
+  int64 endTime = 3;
+  bool isBan   = 4;
+}
+
+message SendSilenceSysInfoResp {
+  bool success = 1;
+  uint32 shardId = 2;
+  string retMsg = 3;
+}

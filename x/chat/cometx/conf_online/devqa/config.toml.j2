@@ -1,0 +1,73 @@
+{% set etcdvalue = item.value %}
+
+# etcd
+etcd_endpoint = {{etcdvalue.etcd_endpoint}}
+etcd_devops = "{{etcdvalue.etcd_root_devops}}" # 运维目录
+etcd_server = "{{etcdvalue.etcd_root_server}}" # 服务器目录
+
+serverid = "{{ etcdvalue.serverid }}"
+
+elbaddr={{etcdvalue.elbaddr | default([])}}
+
+#聊天服大区先留着，可以作为海外，国内的区分
+gid = {{ etcdvalue.gid }}
+logicid = "{{etcdvalue.logicid}}"
+
+publicip="{{etcdvalue.PublicCloudIP}}"           #[prod] 生产环境："aws"
+internalip="{{etcdvalue.CloudIP}}"
+elb_cometx_addr = "{{etcdvalue.elb_cometx_addr | default()}}"
+
+listen = ":{{etcdvalue.listen}}" # 外网端口
+
+# grpc comet server config ---> client is job
+[RPCServer]
+Network = "tcp"
+#Addr = "localhost:10004"
+Timeout = 1
+IdleTimeout = 60
+MaxLifeTime = 7200
+ForceCloseWait = 20
+KeepAliveInterval = 60
+KeepAliveTimeout = 20
+
+# grpc comet client config ---> server is logic
+[RPCClient]
+#Addr = "localhost:10002"
+
+# comet 桶的配置
+[Bucket]
+Size = 32
+Channel = 1024
+Room = 1024
+RoutineAmount = 32
+RoutineSize = 1024
+
+# comet tcp server config ---> client is real client
+[TCP]
+Sndbuf = 4096
+Rcvbuf = 4096
+KeepAlive = false
+Reader = 32
+ReadBuf = 1024
+ReadBufSize = 8192
+Writer = 32
+WriteBuf = 1024
+WriteBufSize = 8192
+DeadLine = 60
+LSBDeadLine = 10
+
+[Protocol]
+# round timer
+Timer = 32
+# round timer size
+TimerSize = 2048
+# 同步给client channel的大小
+SvrProto = 64
+# ring的大小
+CliProto = 32
+# 心跳时间 测试使用大一些 正常5秒
+HandshakeTimeout = 30
+
+[Room]
+# 房间消息cd时间
+Cd = 2

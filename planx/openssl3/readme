@@ -1,0 +1,4 @@
+更换客户端和gamex握手的key步骤：
+运行build.sh
+运行replace.sh 替换所有服务的conf目录下的各种key
+运行base64的main.go会生成客户端用的key，替换client.cs中的connection的参数

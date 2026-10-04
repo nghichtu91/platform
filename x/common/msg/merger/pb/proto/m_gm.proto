@@ -1,0 +1,149 @@
+syntax = "proto3";
+package pb;
+
+option go_package ="github.com/nghichtu91/platform/share/x/common/msg/merger/pb";
+
+service Merger {
+  // 开始合服/回滚
+  rpc start(startMergeReq) returns(startMergeResp);
+
+  // 查询进度
+  rpc query(queryReq) returns(queryResp);
+
+  // 重置缓存
+  rpc reset(resetReq) returns(resetResp);
+
+  // 回滚
+  rpc rollback(rollbackReq) returns(rollbackResp);
+}
+
+// 单个gamex的信息
+message ShardInfo {
+  // 大区号
+  int32 gid = 1;
+
+  // server id
+  int32 sid = 2;
+
+  // 唯一合服ID
+  int32 mergeUID = 3;
+
+  // 回滚mergeUID，仅回滚使用
+  int32 preMergeUID = 4;
+
+  // ip地址，关闭和启动gamex用
+  string ip = 5;
+
+  // scene ip地址, 关闭和启动scene使用
+  string sceneIP = 6;
+
+  // 合服时server id对应的子服(没合过服就是sid本身)
+  repeated uint32 subShard = 7;
+}
+
+// 开始合服请求
+message startMergeReq {
+  // 合服目标，即合到哪个服
+  ShardInfo target = 1;
+
+  // 合服来源，即之前的哪几个服合
+  repeated ShardInfo sources = 2;
+
+  // 完成合服后的回调地址
+  string callbackAddr = 3;
+}
+
+// 开始合服回复
+message startMergeResp {
+  // 是否成功开始
+  bool success = 1;
+
+  // 错误信息
+  string errMsg = 2;
+}
+
+// 查询状态请求
+message queryReq {
+  // 是否查询当前merger所有进度状态
+  bool isAll = 1;
+
+  // server id
+  int32 sid = 2;
+}
+
+
+// 查询状态回复
+message queryResp {
+  repeated ShardProgress sps = 1;
+}
+
+// 单个gamex的合服进度
+message ShardProgress {
+  // shard ID
+  int32 sid = 1;
+
+  // 合服唯一ID
+  int32 mergeUID = 2;
+
+  // 操作类型，合服、回滚...
+  string opType = 3;
+
+  // 本次合服是否成功
+  bool isSuccess = 4;
+
+  // 本次合服是否完成
+  bool isFinish = 5;
+
+  // 模块合服进度
+  repeated ModuleProgress MPs = 6;
+
+  // 当前进度
+  ModuleProgress CurMP = 7;
+}
+
+// 合服进度
+message ModuleProgress {
+  // 模块名称
+  string name = 1;
+
+  // 是否成功
+  bool isSuccess = 2;
+
+  // 开始时间戳
+  int64 startTime = 3;
+
+  // 结束时间戳
+  int64 endTime = 4;
+
+  // 附加信息
+  string msg = 5;
+}
+
+message resetReq {}
+
+message resetResp {
+  // 是否成功开始
+  bool success = 1;
+
+  // 错误信息
+  string errMsg = 2;
+}
+
+message rollbackReq {
+  // 回滚目标，对应新生成的参数
+  ShardInfo target = 3;
+
+  // 回滚来源，对应合服前的参数
+  repeated ShardInfo sources = 4;
+
+  // 完成合服后的回调地址
+  string callbackAddr = 5;
+}
+
+message rollbackResp {
+  // 是否成功开始
+  bool success = 1;
+
+  // 错误信息
+  string errMsg = 2;
+}

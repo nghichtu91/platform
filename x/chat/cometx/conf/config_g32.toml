@@ -1,0 +1,68 @@
+serverid = "comet1"
+
+etcd_endpoint = ["http://127.0.0.1:2379/"]
+etcd_devops = "root/devops"
+etcd_server = "root/server"
+
+publicip="10.0.2.228"           #[prod] 生产环境："aws"
+listen = ":10001"
+internalip="127.0.0.1"
+elb_cometx_addr = ""
+elbaddr=[]
+
+# 指定logic 连接 类似game和scene之间是一一对应的
+gid = 32
+logicid = "logic1"
+
+# grpc comet server config ---> client is job
+[RPCServer]
+Network = "tcp"
+#Addr = "localhost:10004"
+Timeout = 1
+IdleTimeout = 60
+MaxLifeTime = 7200
+ForceCloseWait = 20
+KeepAliveInterval = 60
+KeepAliveTimeout = 20
+
+# grpc comet client config ---> server is logic
+[RPCClient]
+#Addr = "localhost:10002"
+
+# comet 桶的配置
+[Bucket]
+Size = 32
+Channel = 1024
+Room = 1024
+RoutineAmount = 32
+RoutineSize = 1024
+
+# comet tcp server config ---> client is real client
+[TCP]
+Sndbuf = 4096
+Rcvbuf = 4096
+KeepAlive = false
+Reader = 32
+ReadBuf = 1024
+ReadBufSize = 8192
+Writer = 32
+WriteBuf = 1024
+WriteBufSize = 8192
+DeadLine = 60
+LSBDeadLine = 10
+
+[Protocol]
+# round timer
+Timer = 32
+# round timer size
+TimerSize = 2048
+# 同步给client channel的大小
+SvrProto = 10
+# ring的大小 2^5 ring如果使用按位当mask的话 需要2的次方长度
+CliProto = 5
+# 心跳时间
+HandshakeTimeout = 10
+
+[Room]
+# 房间消息cd时间
+Cd = 2

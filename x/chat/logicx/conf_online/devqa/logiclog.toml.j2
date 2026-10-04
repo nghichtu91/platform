@@ -1,0 +1,7 @@
+{% set etcdvalue = item.value %}
+
+Valid = true
+FileTemplate="/opt/supervisor/log/logicx/logicxlogiclog_{{ etcdvalue.serverid }}_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=1 # 0:day,1:hour
+#FileForTail="/opt/supervisor/log/logicx/logicxlogiclog.log"

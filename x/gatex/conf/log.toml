@@ -1,0 +1,11 @@
+
+log_path = "./gatex.log"
+level = "debug"
+prod = false
+sampling = 100 # 一般不用改
+#sentryDSN = "https://f2b1e12aa54249529620c2736be595b2@sentry.io/68835" # sid101测试用
+
+max_size = 20      # 一个log文件最大大小，单位M
+max_backups = 20    # 最多保留多少个log文件
+max_age = 10        #最多保留多少天前的log文件
+console = true

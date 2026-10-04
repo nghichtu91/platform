@@ -1,0 +1,10 @@
+syntax = "proto3";
+package pb;
+
+option go_package = "github.com/nghichtu91/platform/share/planx/nats_cli/pb";
+
+message NatsWrapper {
+    string name =1;
+    bytes content =2;
+    bytes ctx =3; // tracer context
+}

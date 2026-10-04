@@ -1,0 +1,12 @@
+
+log_path = "./example.log"
+level = "debug"
+prod = true
+sampling = 100 # 一般不用改
+#sentryDSN = "https://f2b1e12aa54249529620c2736be595b2@sentry.io/68835" # sid101测试用
+
+max_size = 1      # 一个log文件最大大小，单位M
+max_backups = 2    # 最多保留多少个log文件
+max_age = 1        #最多保留多少天前的log文件
+
+flush_interval = 3000 # log落盘的flush频率，单位：毫秒

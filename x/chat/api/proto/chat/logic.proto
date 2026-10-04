@@ -1,0 +1,109 @@
+syntax = "proto2";
+
+package protogen;
+option go_package = "vcs.taiyouxi.net/jws2/common/proto/protogen";
+
+import "proto/chat/chat.proto";
+import "proto/chat/common.proto";
+
+// nats push 消息
+message PushMsg {
+  enum Type {
+    // 私聊
+    PUSH = 0;
+    // 房间聊天
+    ROOM = 1;
+    // 历史记录
+    HISTORY = 2;
+  }
+  required Type type = 1;
+  optional string key = 2;
+  required ClientPackage msg = 3;
+  optional int32 operation = 4;
+  optional string server = 5;
+  optional string room = 6;
+}
+
+message ErrorInfo {
+  optional string err = 1;
+}
+
+service Logic {
+  // comet通知logic有客户端连接
+  rpc Connect(ConnectReq) returns(ConnectReply);
+  rpc DisConnect(DisconnectReq) returns(DisconnectReply);
+  rpc Heartbeat(HeartbeatReq) returns(Empty);
+  // rpc SendChatMsg(ChatMsgReq) returns(ErrorInfo);
+  rpc GetHistoryMsg(HistoryMsgReq) returns(ErrorInfo);
+  rpc RoomDestroy(RoomDestroyReq) returns(ErrorInfo);
+  rpc Translate(TranslateWithTarget) returns(ErrorInfo);
+}
+
+// 玩家连接请求
+message ConnectReq {
+  // comet id
+  required string server = 1;
+  // 玩家唯一id
+  required string acid = 2;
+  // token
+  required string token = 3;
+  // 连接sessionId
+  required string sessionId = 4;
+}
+
+// 验证结果由err返回
+message ConnectReply {
+  // 玩家唯一id
+  required string acid = 1;
+  // 封禁理由
+  required string reason = 2;
+  // 封禁结束时间 -1 永久封禁
+  required int64 endTime = 3;
+}
+
+message DisconnectReq {
+  required string key = 1;
+  required string server = 2;
+  required string sessionId = 3;
+}
+
+message DisconnectReply {
+  required bool has = 1;
+}
+
+message HeartbeatReq {
+  required string key = 1;
+  required string server = 2;
+}
+
+// comet带着from id请求logic
+/*
+message ChatMsgReq {
+  // 由于需要把消息发送给自己一份 得知道原id
+  required string fromId = 1;
+  // 客户端发送的数据
+  required ChatMsg clienReq = 2;
+}
+*/
+
+// comet带着from id请求logic
+message HistoryMsgReq {
+  // 由于需要把消息发送给自己一份 得知道原id
+  required string fromId = 1;
+  // 客户端发送的数据
+  required HistoryMsg clienReq = 2;
+}
+
+// 房间销毁
+message RoomDestroyReq {
+  // room id
+  repeated string roomIds = 1;
+}
+
+// 翻译请求
+message TranslateWithTarget {
+  //请求者
+  required string target = 1;
+  //客户端请求
+  required TranslateReq req = 2;
+}

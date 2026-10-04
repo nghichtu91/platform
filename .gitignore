@@ -1,0 +1,53 @@
+*.log
+x/auth/auth
+x/auth/health
+x/auth/hotchangelevel.sh
+x/auth/pprof
+x/auth/tryaddr
+x/gatex/health
+x/gatex/hotchangelevel.sh
+x/notice/hotchangelevel.sh
+x/notice/notice
+x/notice/pprof
+log.20*
+**/hotchangelevel.sh
+.scannerwork
+
+# 聊天
+x/chat/cometx/cometx
+x/chat/logicx/logicx
+x/chat/jobx/jobx
+
+# vim project file
+*.vimspector.json
+
+# 不排除项 
+!log.toml.j2
+
+.idea
+
+# Credentials and certificate material
+*.key
+*.pem
+*.pfx
+*.p12
+*.der
+*.crt
+*.cer
+
+# Runtime and generated artifacts
+nohup.out
+**/goroutine_*.pb
+/planx/mergetool/merge.xlsx
+/planx/bin/protoc
+/planx/bin/protoc-gen-go
+/x/chat/web/web
+/x/chat/web/webapp/build/
+
+# Configuration files containing credentials
+/x/auth/conf/herolog.toml
+/x/auth/conf/config.toml
+/x/auth/conf/config_g32*.toml
+
+# Test fixture contains a private key
+/x/common/service_proto/gatex/handshake_test.go

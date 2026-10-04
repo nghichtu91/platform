@@ -1,0 +1,5 @@
+wrk.method = "POST"
+wrk.path = "/auth/v2/sdk/login"
+wrk.body = "uid=4Ib-404048==&device_Id=vmjyv1Qpqmpdv1p9&ip=4ftoLdbr4lMC&address_flag=4d4C&sdkChannelUID=404V4d4V&channelId=4f9V48==&app_channelId=4ft0&device=vmjyv1QpqmpdvO==&token=2zeMBb==&typ=xDe0&environment=2oGM"
+wrk.headers["TYX-Request-Id"] = "f88a78a83463f1e03bbf0acb3883aefb"
+wrk.headers["Content-Type"] = "application/x-www-form-urlencoded"

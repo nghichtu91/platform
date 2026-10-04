@@ -1,0 +1,53 @@
+syntax = "proto3";
+package proto;
+
+option go_package ="github.com/nghichtu91/platform/share/x/common/msg/gategamex/pb";
+
+import "proto/packet.proto";
+
+// The greeting service definition.
+service Gate {
+    // Sends a greeting
+//    rpc OnConnect ( OnConnectRequest) returns ( OnConnectReply) {}
+    rpc CtlRpc (CtlReq) returns (CtlResp);
+    rpc OnPacket (stream Packet) returns (stream Packet) {}
+    rpc OnBatchPacket (stream BatchPacket) returns (stream BatchPacket) {}
+//    rpc OnClose ( OnCloseRequest) returns ( OnCloseReply) {}
+}
+
+message Packet {
+     int32 packetId = 1;
+     bytes rawData = 4;
+}
+
+message BatchPacket {
+    repeated string acids = 1;
+    Packet packet = 2;
+}
+
+message CtlReq {
+    CtlTyp typ = 1;
+    string param = 2;
+}
+
+message CtlResp {
+    CtlRes res = 1;
+    string reason = 2;
+}
+
+enum CtlTyp{
+    ForceQuit = 0;
+    PingCheck = 1;
+    PushCheck = 2;
+}
+
+enum CtlRes{
+    Ctl_Success = 0;
+    Ctl_Fail = 1;
+}
+
+message SessionPacket {
+    string SessionID   = 1;
+    string AccountID  = 2; //0:0:1001
+    ClientPacket ClientPacket = 3;
+}

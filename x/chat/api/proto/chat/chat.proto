@@ -1,0 +1,179 @@
+syntax = "proto2";
+
+package protogen;
+option go_package = "vcs.taiyouxi.net/jws2/common/proto/protogen";
+
+import "proto/chat/chat_error.proto";
+//import "client/chat_operate.proto";
+
+// 客户端与服务器交互的唯一协议
+// 整个消息的大小
+// 消息结构:
+// size -- 4个字节
+// client package
+message ClientPackage {
+  // 消息类型 对应chat_operate.proto
+  required  uint32 messageId = 1;
+  // protobuf定义
+  optional bytes rawData = 2;
+}
+
+// 客户端请求登陆聊天服
+message ChatLogin {
+  // 同步玩家的acid 有聊天服和gate统一验证
+  required string playerId = 1;
+  // 客户端先去gateway拿到token后拿着token再登陆chat server
+  required string token = 2;
+}
+
+// 登陆返回
+message ChatLoginResp {
+  required ErrorCode code= 1;
+  // 封禁理由
+  required string reason = 2;
+  // 封禁结束时间 -1 永久封禁 0是非禁言
+  required int64 endTime = 3;
+}
+
+/*
+  加入房间 由于游戏内的房间类型比较多
+  room id 由 功能字符串_id
+例：
+  "zone_server_world_1" 世界频道
+  "zone_server_team_1" 组队频道
+  "zone_server_map_1" 地图频道
+  "zone_server_藏经阁" 指定的聊天室
+  "zone_server_guild_1" 工会频道
+  "union_server_1" 几个服务器跨服聊天
+  "zone_1" 整个大区聊天
+*/
+
+// todo!!不同的房间可能会有不同的规则 人数上限 是否拉取离线消息等等
+// 由于房间会比较多 可能一次加多个频道
+// 比如一上线就会加入 世界 地图 如果有工会还有工会 队伍等
+// 客户端请求加入房间
+message JoinRoom {
+  repeated string roomId = 1;
+}
+
+// 加入房间返回
+message JoinRoomResp {
+  repeated string roomId = 1;
+  required ErrorCode code= 2;
+}
+
+// 客户端请求离开房间
+message LeaveRoom {
+  repeated string roomId = 1;
+}
+
+// 离开房间返回
+message LeaveRoomResp {
+  repeated string roomId = 1;
+  required ErrorCode code = 2;
+}
+
+// 聊天类型
+enum ChatType {
+  Personal = 0;
+  Room = 1;
+}
+
+// 客户端发送聊天信息
+message ChatMsg {
+  // 私聊对象id 或者 room id
+  required string targetId = 1;
+  // 聊天类型
+  required ChatType type = 2;
+  // 消息内容
+  required string content = 3;
+  // sdk接入方 透传的消息
+  optional string sdkParam = 4;
+  // 语音二进制数据
+  optional bytes voiceChat = 5;
+}
+
+// 服务器返回的消息基本的数据结构
+message ChatMsgData {
+  // uuid
+  required string uuid = 1;
+  // 谁发的消息
+  required string fromId = 2;
+  // 私聊对象id 或者 room id
+  required string targetId = 3;
+  // 聊天类型
+  required ChatType type = 4;
+  // 消息内容
+  required string content = 5;
+  // sdk接入方 透传的消息
+  optional string sdkParam = 6;
+  // 消息发送的时间
+  required int64 sendStamp = 7;
+  // 语音文件链接
+  optional string voiceChatUrl = 8;
+}
+
+// 聊天消息返回
+message ChatMsgResp {
+  // 消息内容 
+  optional ChatMsgData msg = 1;
+  // 错误码
+  required ErrorCode code = 2;
+}
+
+// 客户端请求历史消息
+message HistoryMsg {
+  // 私聊对象id 或者 room id
+  required string targetId = 1;
+  // 聊天类型
+  required ChatType type = 2;
+  // 例如：0-10 拉取最近的10条消息
+  // 历史消息的起始索引
+  required uint32 indexBegin = 3;
+  // 历史消息的结束索引
+  required uint32 indexEnd = 4;
+}
+
+// 历史消息返回
+message HistoryMsgResp {
+  // 历史消息数组
+  repeated ChatMsgData msg = 1;
+  // 错误码j
+  required ErrorCode code= 2;
+}
+
+// 封禁通知客户端
+message ForbiddenResp {
+  // 封禁理由
+  required string reason = 1;
+  // 封禁结束时间 -1 永久封禁 0是非禁言
+  required int64 endTime = 2;
+}
+
+// 解禁 只有id就行 chat_operate.proto中定义
+/*
+message UnForbiddenResp {
+}
+*/
+
+// 客户端翻译请求
+message TranslateReq {
+  //目标语言 unicode_language_subtag
+  required string target = 1;
+  //聊天消息唯一id
+  required string uuid = 2;
+  //翻译文本
+  required string text = 3;
+  //客户端index(回复原样带回)
+  optional int32 index = 4;
+}
+
+// 客户端翻译回复
+message TranslateResp {
+  //聊天消息唯一id
+  required string uuid = 1;
+  //翻译结果
+  required string result = 2;
+  //客户端index(回复原样带回)
+  optional int32 index = 3;
+}

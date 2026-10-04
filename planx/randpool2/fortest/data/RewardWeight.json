@@ -1,0 +1,183 @@
+{
+  "items": [
+    {
+      "RandomID": "Weight_Rnd_1",
+      "SubID": 1,
+      "Weight": 2,
+      "OutputID": 101,
+      "RangeDown": 50,
+      "RangeUp": 50
+    },
+    {
+      "RandomID": "Weight_Rnd_1",
+      "SubID": 2,
+      "Weight": 4,
+      "OutputID": 102,
+      "RangeDown": 1000,
+      "RangeUp": 1000
+    },
+    {
+      "RandomID": "Weight_Rnd_1",
+      "SubID": 3,
+      "Weight": 8,
+      "OutputID": 103,
+      "RangeDown": 500,
+      "RangeUp": 500
+    },
+    {
+      "RandomID": "Weight_Rnd_1",
+      "SubID": 4,
+      "Weight": 3,
+      "OutputID": 104,
+      "RangeDown": 1000,
+      "RangeUp": 1000
+    },
+    {
+      "RandomID": "Weight_Rnd_2_Fill",
+      "SubID": 1,
+      "Weight": 2,
+      "OutputID": 105,
+      "RangeDown": 50000
+    },
+    {
+      "RandomID": "Weight_Rnd_2_Fill",
+      "SubID": 2,
+      "Weight": 1,
+      "OutputID": 106,
+      "RangeDown": 10000
+    },
+    {
+      "RandomID": "Weight_Rnd_2_Fill",
+      "SubID": 3,
+      "Weight": 1,
+      "OutputID": 107,
+      "RangeDown": 50
+    },
+    {
+      "RandomID": "Weight_Rnd_2_Small",
+      "SubID": 1,
+      "Weight": 3,
+      "OutputID": 108,
+      "RangeDown": 50
+    },
+    {
+      "RandomID": "Weight_Rnd_2_Small",
+      "SubID": 2,
+      "Weight": 2,
+      "OutputID": 109,
+      "RangeDown": 50
+    },
+    {
+      "RandomID": "Weight_Rnd_2_Small",
+      "SubID": 3,
+      "Weight": 2,
+      "OutputID": 110,
+      "RangeDown": 30
+    },
+    {
+      "RandomID": "Weight_Rnd_2_Small",
+      "SubID": 4,
+      "Weight": 4,
+      "OutputID": 111,
+      "RangeDown": 388
+    },
+    {
+      "RandomID": "Weight_Hero_SR",
+      "SubID": 1,
+      "Weight": 1,
+      "OutputID": 112,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_SR",
+      "SubID": 2,
+      "Weight": 1,
+      "OutputID": 113,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_SR",
+      "SubID": 3,
+      "Weight": 1,
+      "OutputID": 114,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_SR",
+      "SubID": 4,
+      "Weight": 1,
+      "OutputID": 115,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_SR",
+      "SubID": 5,
+      "Weight": 1,
+      "OutputID": 116,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 1,
+      "Weight": 1,
+      "OutputID": 117,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 2,
+      "Weight": 1,
+      "OutputID": 118,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 3,
+      "Weight": 1,
+      "OutputID": 119,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 4,
+      "Weight": 1,
+      "OutputID": 120,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 5,
+      "Weight": 1,
+      "OutputID": 121,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 6,
+      "Weight": 1,
+      "OutputID": 122,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 7,
+      "Weight": 1,
+      "OutputID": 123,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_R",
+      "SubID": 8,
+      "Weight": 1,
+      "OutputID": 124,
+      "RangeDown": 1
+    },
+    {
+      "RandomID": "Weight_Hero_SSR",
+      "SubID": 1,
+      "Weight": 1,
+      "OutputID": 125,
+      "RangeDown": 1
+    }
+  ]
+}

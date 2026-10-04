@@ -1,0 +1,6 @@
+{% set etcdvalue = item.value %}
+
+level = "{{etcdvalue.loglevel}}"
+prod = false
+sampling = 100 # 一般不用改
+sentryDSN = "{{etcdvalue.otherSentryDSN | default("") }}"

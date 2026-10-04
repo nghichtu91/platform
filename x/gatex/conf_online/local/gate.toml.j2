@@ -1,0 +1,35 @@
+{% set hostip = ansible_eth0.ipv4.address %}
+{% set etcdkey = item.key %}
+{% set etcdvalue = item.value %}
+
+[GateConfig]
+etcd_endpoint = {{etcdvalue.etcd_endpoint}} #[prod] 当GateConfig的run_mode是prod时有效
+# Etcd Root Path 注意以/开头 如 /a4k
+etcd_server= "{{etcdvalue.etcd_root_server}}"
+etcd_devops= "{{etcdvalue.etcd_root_devops}}"
+
+gid={{etcdvalue.gid}}
+serverid="{{etcdvalue.serverid}}"
+
+elbaddr={{etcdvalue.elbaddr | default([])}}
+LSBDeadLine = 10
+
+publicip = "10.0.1.35:{{etcdvalue.listen}}"   #[prod] 生产环境："aws"
+internalip="10.0.1.35"
+listen = ":{{etcdvalue.listen}}"    #[prod] 如果gate直接面向公网进行服务则需要公网IP，必须完整ip:port
+maxconn =  10000
+game_conn_num=10
+
+[GateConfig.SslCfg]
+cert = "conf/server.crt"
+key = "conf/server.key"
+ca = "conf/ca.crt"
+
+[GateConfig.HostSslCfg]
+cert = "{{etcdvalue.PublicGateCert|default("")}}"   # 证书
+key = "{{etcdvalue.PublicGateKey|default("")}}"     # 签名
+ca = "{{etcdvalue.PublicGateCa|default("")}}"       # ca 一般留空即可
+host = "{{etcdvalue.PublicGateHost|default("")}}"   # 证书对外的域名
+
+[CCUMetricsConfig]
+LoginConnector_tick_time = 6

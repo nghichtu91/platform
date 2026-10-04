@@ -1,0 +1,28 @@
+{% set etcdvalue = item.value %}
+
+# etcd
+etcd_endpoint = {{etcdvalue.etcd_endpoint}}
+etcd_devops = "{{etcdvalue.etcd_root_devops}}" # 运维目录
+etcd_server = "{{etcdvalue.etcd_root_server}}" # 服务器目录
+
+serverid = "{{ etcdvalue.serverid }}"
+
+#聊天服大区先留着，可以作为海外，国内的区分
+gid = {{ etcdvalue.gid }}
+NatsUrl= "{{etcdvalue.NatsUrl}}"
+internalip = "{{etcdvalue.CloudIP}}"
+
+# job room config
+[Room]
+# 批量发送的个数
+Batch = 100
+# 批量发送时间
+Signal = 500
+# 重置job room发送时间
+Idle = 900
+
+[Comet]
+# comet chanel size
+RoutineChan = 1024
+# comet routine size
+RoutineSize = 32

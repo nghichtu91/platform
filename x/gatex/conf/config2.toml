@@ -1,0 +1,33 @@
+
+[GateConfig]
+etcd_endpoint = ["http://127.0.0.1:2379/"]
+etcd_devops = "root/devops"
+etcd_server = "root/server"
+
+serverid = "gatex2"
+
+elbaddr=[]
+LSBDeadLine = 10
+
+gid=12
+publicip="127.0.0.1:8668"           #[prod] 生产环境："aws"
+internalip="127.0.0.1"
+listen = ":8668"                    #[prod] 如果gate直接面向公网进行服务则需要公网IP，必须完整ip:port
+maxconn = 3
+game_conn_num=10
+CloudGAAddress="" # 实际对外暴露的地址，用于负载均衡，空就用用publicip
+
+ChatxRedisAddr="127.0.0.1:6379"
+ChatxRedisDb="0"
+ChatxRedisDbPwd=""
+
+[GateConfig.SslCfg]
+cert = "conf/server.crt"
+key = "conf/server.key"
+
+[GateConfig.SslCaCfg]
+cert = "conf/ca.crt"
+
+[CCUMetricsConfig]
+LoginConnector_tick_time = 6
+

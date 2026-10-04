@@ -1,0 +1,9 @@
+syntax = "proto2";
+package protogen;
+
+message KickPush {
+    required string Msg = 1;
+    required int32 After = 2;
+    required int32 NoLogin = 3;
+    required int32 KickErrCode = 4;
+}

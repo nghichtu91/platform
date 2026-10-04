@@ -1,0 +1,18 @@
+[AllLevelLogic]
+Valid = true
+FileTemplate="./giftlogiclog_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=1 # 0:day,1:hour
+FileForTail="./giftlogiclog.log"
+
+[[levelLogic]]
+Level = "info"
+FileTemplate="./giftlogiclog_realtime_%y-%m-%d_%h.log"
+RotateTimeLocal="Asia/Shanghai"
+RotateType=1 # 0:day,1:hour
+
+[TALogic]
+ConfigPath          = "./"
+ConfigSplit         = 1 # 0按天切分;1按小时切分。
+ConfigFileSize      = 10240 # 文件大小上限，超出自动切分。
+TALogicValid        = true # 是否开启TALogicLog。

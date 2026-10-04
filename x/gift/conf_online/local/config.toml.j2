@@ -1,0 +1,36 @@
+{% set etcdvalue = item.value %}
+
+[GiftCfg]
+#-------------------------------------------Mysql数据库相关配置-------------------------------------------
+
+db_driver = "mysql"                                 # 使用的数据库驱动（修改此驱动时，需要修改初始化DB的隐式import包）。
+gift_mysql_url = "{{gift_mysql_url}}"               # 连接数据所需的全部信息（举例：taiyouxi:S8Nne@8rxY@tcp(172.16.2.87:3306)/gmtools12）。
+db_max_open_conns = 100                             # 连接池允许的最大连接数。
+                                                    # 如果使用Mysql数据库：Mysql默认最大连接151条，如果希望这个值超出151，需要修改Mysql配置。
+                                                    # 查看Mysql允许的最大连接数：show variables like 'max_connections';
+db_max_idle_conns = 20                              # 连接池允许的最大闲置连接数。
+                                                    # 此值只允许<=db_max_open_conns
+db_conn_max_life_time = 600                         # 连接的可获取最大生成周期值（s）。
+                                                    # 如果使用mysql数据库：Mysql默认一条连接的保持时间为10h上限，如果希望超出，需要修改Mysql配置。
+                                                    # 查看Mysql允许的连接最大保持时间：show variables like  '%timeout%';
+                                                    # 注意！此值不设置或者设置超过Mysql侧设置，可能会导致连接池内出现无效连接而报错。
+
+#--------------------------------------------OSS数据库相关配置--------------------------------------------
+
+oss_endpoint    = "{{etcdvalue.oss_endpoint}}"      # OSS外网访问地域节点（举例："http://oss-cn-hangzhou.aliyuncs.com"）。
+oss_data_bucket = "{{etcdvalue.oss_data_bucket}}"   # 存储数据的远端桶（举例："jws2-battle-data"）。
+oss_accesskey   = ""    # OSS链接Key（举例："your-access-key"）。
+oss_secretkey   = ""     # OSS秘钥Key（举例："zlZbOsMiYvetU0X8O1PAH9QZLyPGpc"）。
+
+#--------------------------------------------服务器参数相关配置--------------------------------------------
+
+code_project_num = 0                                # 当前项目的编号（用于兑换码生成）。
+serverid = "{{etcdvalue.serverid}}"                 # 当前服务器编号。
+proj = "jws2"                                       # 当前项目的编号（仅用作普罗米修斯展示）。
+
+#--------------------------------------------服务参数的相关配置--------------------------------------------
+
+httpport          = ":{{etcdvalue.httpport}}"       # gin提供服务端口。
+server_crt_file   = "conf/server.crt"               # 服务器证书文件。
+server_key_file   = "conf/server.key"               # 服务器秘钥文件。
+ca_crt_file       = "conf/ca.crt"                   # CA证书文件。

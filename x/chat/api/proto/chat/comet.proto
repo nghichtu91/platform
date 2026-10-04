@@ -1,0 +1,53 @@
+syntax = "proto2";
+
+package protogen;
+option go_package = "vcs.taiyouxi.net/jws2/common/proto/protogen";
+
+//import "github.com/nghichtu91/platform/share/x/chat/chat_server/api/proto/common.proto";
+import "proto/chat/common.proto";
+import "proto/chat/chat.proto";
+
+message PushMsgReq {
+    required string key = 1;
+    optional int32 protoOp = 2;
+    required ClientPackage proto = 3;
+}
+
+message PushMsgReply {}
+
+message BroadcastReq{
+    required int32 protoOp = 1;
+    required ClientPackage proto = 2;
+    optional int32 speed = 3;
+}
+
+message BroadcastReply{}
+
+message BroadcastRoomReq {
+    required string roomID = 1;
+    required ClientPackage proto = 2;
+}
+
+message BroadcastRoomReply{}
+
+message RoomsReq{}
+
+message RoomsReply {
+    //map<string,bool> rooms = 1;
+}
+
+// job发给comet
+service Comet { 
+    // Ping Service 
+    rpc Ping(Empty) returns(Empty); 
+    // Close Service 
+    rpc Close(Empty) returns(Empty); 
+    //PushMsg push by key or mid
+    rpc PushMsg(PushMsgReq) returns (PushMsgReply);
+    // Broadcast send to every enrity
+    rpc Broadcast(BroadcastReq) returns (BroadcastReply);
+    // BroadcastRoom broadcast to one room
+    rpc BroadcastRoom(BroadcastRoomReq) returns (BroadcastRoomReply);
+    // Rooms get all rooms
+    rpc Rooms(RoomsReq) returns (RoomsReply);
+}

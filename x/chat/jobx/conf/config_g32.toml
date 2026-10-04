@@ -1,0 +1,27 @@
+serverid = "job1"
+
+#聊天服大区先留着，可以作为海外，国内的区分
+gid = 32
+
+etcd_endpoint = ["http://127.0.0.1:2379/"]
+etcd_devops = "root/devops"
+etcd_server = "root/server"
+
+# nats
+NatsUrl= "nats://127.0.0.1:4222"
+internalip = "127.0.0.1"
+
+# job room config
+[Room]
+# 批量发送的个数
+Batch = 5
+# 批量发送时间 单位:ms
+Signal = 200
+# 重置job room发送时间
+Idle = 900
+
+[Comet]
+# comet chanel size
+RoutineChan = 1024
+# comet routine size
+RoutineSize = 32
